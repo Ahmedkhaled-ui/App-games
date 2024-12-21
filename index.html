@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Reviews</title>
+    <link rel="stylesheet" href="icon/all.min.css" />
+    <link rel="stylesheet" href="bt/bootstrap.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="load d-none">
+      <span class="loader"></span>
+    </div>
+    <header>
+      <nav
+        id="nav"
+        class="navbar bg-nav navbar-expand-lg w-75 mx-auto mt-5 rounded-4 px-2 py-3">
+        <div class="container">
+          <div class="d-flex align-items-center gap-3">
+            <img width="50px" src="logo-sm.png" alt="" />
+            <a class="navbar-brand text-light" href="#">Game Reviews </a>
+          </div>
+
+          <button
+            id="btn"
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  id="mmorpg"
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >mmorpg</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="shooter" class="nav-link" aria-current="page" href="#"
+                  >shooter</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="sailing" class="nav-link" aria-current="page" href="#"
+                  >sailing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  id="permadeath"
+                  class="nav-link"
+                  aria-current="page"
+                  href="#">
+                  permadeath</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="superhero" class="nav-link" aria-current="page" href="#">
+                  superhero</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="pixel" class="nav-link" aria-current="page" href="#"
+                  >pixel</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="position-relative">
+      <section class="container p-5 position-relative">
+        <div
+          id="show"
+          class="row position-relative row-cols-1 row-cols-md-3 g-4"></div>
+        <div class="hide"></div>
+      </section>
+      <section id="details" class="container text-light"></section>
+      <i id="exit" class="fa-solid d-none fa-xmark"></i>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
